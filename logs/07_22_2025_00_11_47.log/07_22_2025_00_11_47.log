@@ -1,0 +1,19 @@
+[ 2025-07-22 00:11:48,136 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[ 2025-07-22 00:11:48,564 ] 18 root - INFO - initiate the data ingestion
+[ 2025-07-22 00:11:50,410 ] 68 root - INFO - Performed train test split on the dataframe
+[ 2025-07-22 00:11:50,410 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-07-22 00:11:50,410 ] 78 root - INFO - Exporting train and test file path.
+[ 2025-07-22 00:11:50,440 ] 87 root - INFO - Exported train and test file path.
+[ 2025-07-22 00:11:50,440 ] 21 root - INFO - Data initiation comppleted
+[ 2025-07-22 00:11:50,443 ] 25 root - INFO - Initiate the data validation config
+[ 2025-07-22 00:11:50,561 ] 27 root - INFO - data vlaidation Completed
+[ 2025-07-22 00:11:50,561 ] 54 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-07-22 00:11:50,561 ] 56 root - INFO - Starting data transformation
+[ 2025-07-22 00:11:50,572 ] 39 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-07-22 00:11:50,572 ] 44 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-07-22 00:11:50,583 ] 47 root - INFO - exited the save_object method of main utils class
+[ 2025-07-22 00:11:50,629 ] 47 root - INFO - exited the save_object method of main utils class
+[ 2025-07-22 00:11:50,629 ] 34 root - INFO - Model Training sstared
+[ 2025-07-22 00:14:21,443 ] 47 root - INFO - exited the save_object method of main utils class
+[ 2025-07-22 00:14:21,478 ] 47 root - INFO - exited the save_object method of main utils class
+[ 2025-07-22 00:14:21,478 ] 130 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9907089476873359, precision_score=0.9885126964933495, recall_score=0.992914979757085), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9790554414784394, precision_score=0.9786535303776683, recall_score=0.9794576828266228))

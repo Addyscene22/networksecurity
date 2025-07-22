@@ -1,0 +1,10 @@
+artifact_location: file:///home/adwait/programming/Network-Security%20Project/mlruns/0/models/m-18d4ed26d1ed402691c7bdbd12b7f33d/artifacts
+creation_timestamp: 1753206272721
+experiment_id: '0'
+last_updated_timestamp: 1753206274814
+model_id: m-18d4ed26d1ed402691c7bdbd12b7f33d
+model_type: null
+name: model
+source_run_id: 894bed269cf143709a1a0cf76ddb3341
+status: 2
+status_message: null
